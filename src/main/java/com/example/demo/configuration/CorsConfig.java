@@ -16,7 +16,7 @@ public class CorsConfig {
         CorsConfiguration config = new CorsConfiguration();
         config.setAllowCredentials(true);
 
-        //TODO since this is just an interview demo it's very permissive. In a real world application this should be
+        //TODO since this is just a demo it's very permissive. In a real world application this should be
         //TODO more restrictive, depending on use cases, requirements, etc.
         config.addAllowedOrigin("*");
         config.addAllowedHeader("*");

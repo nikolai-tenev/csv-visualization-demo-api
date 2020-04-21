@@ -21,7 +21,7 @@ services:
       - 8080:8080
     environment:
       MONGO_URI: mongodb://${MONGO_USER}:${MONGO_PASS}@mongodb
-      MONGO_DATABASE: il_interview
+      MONGO_DATABASE: csv_visualization_demo
       MONGO_AUTH_DB: ${MONGO_AUTH_DB}
       JWT_SECRET: ${JWT_SECRET}
       JWT_EXPIRATION: ${JWT_EXPIRATION}

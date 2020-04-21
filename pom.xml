@@ -8,11 +8,11 @@
 		<version>2.2.6.RELEASE</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.example</groupId>
-	<artifactId>demo</artifactId>
+	<groupId>com.digidworks</groupId>
+	<artifactId>csv-visualization-demo-api</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>demo</name>
-	<description>Back end code for a code interview evaluation task.</description>
+	<name>CSV visualization demo REST API</name>
+	<description>Demo REST API for CSV upload and visualization.</description>
 
 	<properties>
 		<java.version>14</java.version>
